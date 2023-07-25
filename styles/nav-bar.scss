@@ -1,0 +1,49 @@
+.nav-bar-wrapper{
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    gap: 12px;
+    background-color: #f1f1f1;
+}
+
+.about-brand{
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    gap: 9px;
+}
+
+.logo{
+    width: 39px;
+    height: 39px;
+    background-color: aqua;
+    border-radius: 39px;
+}
+
+.company{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.2px;
+}
+
+.options{
+    display: flex;
+    height: 712px;
+    width: auto;
+    background-color: aqua;
+}
+
+.upper{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
