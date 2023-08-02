@@ -1,0 +1,58 @@
+$brand-primary-color: #00CCF9;
+
+$very-dark-gray:#3C3D3E;
+$colours-basic-darkish-gray:#7D7D7D;
+$colours-basic-medium-gray:#9C9D9E;
+$colours-basic-light-gray:#D6D5D4;
+
+$spacing-1: 8px;
+
+
+
+
+$text-primary: $very-dark-gray;
+$text-secondary:$colours-basic-darkish-gray;
+
+$border-border-secondary:$colours-basic-light-gray;
+
+$surface-primary:#FFFFFF;
+$surface-secontary:#F2F2F2;
+
+
+.my-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 40px;
+    padding: 10px 99px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid $colours-basic-medium-gray ;
+    background-color: $surface-primary;
+    &:hover {
+        cursor: pointer;
+        border: 2px solid $colours-basic-darkish-gray;
+        padding: 10px 92px;
+      }
+}
+
+.icon-user{
+    height: 16px;
+    width: 16px;
+    color: $colours-basic-darkish-gray;
+}
+
+
+.btn-txt{
+    // display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.15px;
+    color:$colours-basic-darkish-gray;
+    
+}

@@ -1,0 +1,25 @@
+.popup-delete {
+  /* Add this CSS code to your stylesheet or component's style block */
+  position: absolute;
+  width: 100px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  z-index: 1; /* Ensure the container appears above other content */
+  min-width: 150px; /* Set a minimum width for the container */
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+}
+
+.delete-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: transparent;
+  font-size: 11px;
+  cursor: pointer;
+}/*# sourceMappingURL=pop-up-delete-update.css.map */

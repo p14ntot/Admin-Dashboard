@@ -1,0 +1,57 @@
+/* Add these styles to your existing CSS file or style block */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity here (0 to 1) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; /* Set a high z-index to ensure it displays above other elements */
+}
+
+.popup-form {
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  height: auto;
+  width: 25%;
+  min-width: 300px;
+}
+
+/* Add this to make the close button visible */
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #555555;
+}
+
+.popup-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-content form input {
+  width: 60%;
+  min-width: 200px;
+  margin: 0 auto; /* Set margin to 'auto' to center the input fields horizontally */
+  margin-bottom: 10px;
+  text-align: center; /* Center the text horizontally inside the input */
+  padding: 5px; /* Add some padding to provide visual spacing */
+}
+
+.popup-form button {
+  border-radius: 6px;
+  margin: 10px auto;
+  height: 40px;
+  width: 40%;
+  background-color: #F2F2F2;
+}/*# sourceMappingURL=pop-up-form.css.map */
